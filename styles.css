@@ -1,0 +1,250 @@
+body {
+    background-color: #1f1f1f;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    position: sticky;
+}
+
+#start {
+    display: flex;
+    align-items: center;
+    padding: 0.2em 1.2em;
+    width: 20%;
+}
+
+button {
+    background: none;
+    border: 0;
+    margin: 0.5em;
+    cursor: pointer;
+    color: #fff;
+}
+
+#logo {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#start button {
+    margin-right: 1em;
+}
+
+#logo sup {
+    color: #999;
+    font-size: 0.5em;
+    margin-left: 0.1em;
+}
+
+#logo img {
+    margin-right: 0.1em;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+}
+
+#search button {
+    background-color: #393939;
+    padding: 0.1em 1.2em;
+    margin-left: 0.2em;
+}
+
+#search input {
+    background-color: rgba(0, 0, 0, 0.55);
+    border: 1.5px solid #333;
+    padding: 0.1em 0.3em;
+    height: 1.8em;
+    width: 35em;
+    color: #fff;
+}
+
+#end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+}
+
+#end button {
+    margin-right: 1.2em;
+}
+
+#sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3ea6ff;
+    border: 1px solid #3ea6ff;
+    padding: 0.3em;
+    width: 8em;
+}
+
+#sign-in img {
+    margin-right: 0.4em;
+}
+
+#container {
+    margin: 1.5% 3%;
+    color: #fff;
+}
+
+.gray-line {
+    background-color: #525252;
+    height: 1px;
+}
+
+#uploader {
+    display: flex;
+    align-items: center;
+    padding: 0.8em 0;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#user-info img {
+    margin-right: 0.5em;
+}
+
+#channel {
+    font-weight: bolder;
+}
+
+#subscribers {
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 0.1em;
+}
+
+#subscribe {
+    margin-left: auto;
+    padding: 0.6em;
+    background-color: #bd0000;
+}
+
+#video {
+    width: 70%;
+}
+
+#video-container {
+    height: 600px;
+}
+
+#video-container iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#video-info {
+    padding: 1em 0;
+    font-size: 0.8em;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+#description {
+    margin: 1em;
+}
+
+#comment-stats {
+    display: flex;
+    align-items: center;
+}
+
+#comment-stats button {
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+}
+
+#comment-stats button img {
+    margin-right: 0.5em;
+}
+
+#comment-insert {
+    display: flex;
+    align-items: center;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+#comment-insert input {
+    width: 100%;
+    margin-left: 0.6em;
+    padding: 0.5em 0.1em;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #525252;
+}
+
+#comments {
+    width: 70%;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+#user-name p {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#user-name span {
+    font-weight: lighter;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.margin-top {
+    margin-top: 0.3em;
+}
+
+.comment img {
+    margin-right: 0.7em;
+}
+
+.vote {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.margin-left {
+    margin-left: 0.9em;
+}
+
+.vote img {
+    width: 1.5em;
+    height: 1.5em;
+}
