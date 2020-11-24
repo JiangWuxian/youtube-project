@@ -6,7 +6,7 @@ body {
 header {
     background-color: rgb(40, 40, 40);
     display: flex;
-    position: sticky;
+    flex-wrap: wrap;
 }
 
 #start {
@@ -33,7 +33,7 @@ button {
     cursor: pointer;
 }
 
-#start button {
+#start img {
     margin-right: 1em;
 }
 
@@ -81,6 +81,7 @@ button {
     width: 20%;
 }
 
+#end img,
 #end button {
     margin-right: 1.2em;
 }
@@ -100,6 +101,9 @@ button {
 }
 
 #container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
     margin: 1.5% 3%;
     color: #fff;
 }
@@ -247,4 +251,83 @@ p {
 .vote img {
     width: 1.5em;
     height: 1.5em;
+}
+
+#more-videos {
+    width: 30%;
+    padding: 0 1.5em;
+}
+
+.recommended-video {
+    display: flex;
+    margin-top: 1em;
+    align-items: flex-start;
+}
+
+.recommended-video img {
+    width: 40%;
+    margin-right: 0.7em;
+}
+
+.recommended-video div {
+    width: 60%;
+    font-weight: 600;
+}
+
+.gray-letter {
+    color: #aaa;
+    font-size: 0.85em;
+}
+
+.more-margin-top {
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 1050px) {
+    #video {
+        width: 100%;
+    }
+
+    #more-videos {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    #comments {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    #search input {
+        width: 20%;
+    }
+
+    #start {
+        width: 20%;
+    }
+
+    #center {
+        width: 60%;
+        justify-content: flex-end;
+    }
+
+    #end {
+        width: 20%;
+    }
+
+    #start img,
+    #end img,
+    #end button {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #search input {
+        display: none;
+    }
+
+    #center {
+        justify-content: center;
+    }
 }
